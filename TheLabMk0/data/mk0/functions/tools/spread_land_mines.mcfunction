@@ -1,0 +1,1 @@
+execute at @a[team=happyVictim,sort=random,limit=1] run spreadplayers ~ ~ 10 1000 false @e[type=minecraft:armor_stand,team=landMine]
