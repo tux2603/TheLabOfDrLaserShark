@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:villager] run summon minecraft:lightning_bolt ~ ~ ~

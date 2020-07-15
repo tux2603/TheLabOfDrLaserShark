@@ -1,5 +1,5 @@
-execute at @e[team=landMine,scores={blowUpHigh=1..}] run scoreboard players add @a[team=happyVictim,distance=..3] blowUpHigh 10
-execute at @e[team=landMine,scores={blowUpLow=1..}] run scoreboard players add @a[team=happyVictim,distance=..3] blowUpLow 25
+execute at @e[team=landMine,scores={blowUpHigh=1..}] run scoreboard players add @a[team=happyVictim,distance=..10] blowUpHigh 10
+execute at @e[team=landMine,scores={blowUpLow=1..}] run scoreboard players add @a[team=happyVictim,distance=..10] blowUpLow 25
 # execute at @e[team=landMine,scores={blowUpHigh=1..}] if entity @a[team=happyVictim,distance=..3] run function mk0:tools/spread_land_mines
 # execute at @e[team=landMine,scores={blowUpLow=1..}] if entity @a[team=happyVictim,distance=..3] run function mk0:tools/spread_land_mines
 

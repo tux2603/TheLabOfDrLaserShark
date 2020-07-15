@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:pig] run summon minecraft:lightning_bolt ~ ~ ~
